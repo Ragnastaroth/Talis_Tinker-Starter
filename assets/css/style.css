@@ -26,8 +26,15 @@ body {
 header {
   width: 100vw;
   background-image: url(../img/banner_bg.jpg);
+  background-size: cover;
 }
 
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10%;
+}
 nav h1 {
   font-family: "roboto_bold";
   font-size: 2rem;
@@ -42,11 +49,46 @@ nav h1 span {
 
 ul {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
 }
 ul a {
   color: white;
   text-transform: uppercase;
+  font-weight: lighter;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#banner h2 {
+  color: white;
+  margin: 5% auto 1rem;
+}
+#banner h2 .html {
+  color: darkcyan;
+  text-transform: uppercase;
+  font-family: "roboto_bold";
+}
+#banner h2 .tinker {
+  color: gold;
+  text-transform: uppercase;
+  font-family: "roboto_bold";
+}
+#banner p {
+  width: 550px;
+  color: white;
+  text-align: center;
+}
+#banner a {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.5rem 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: small;
+  margin: 2rem auto 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
