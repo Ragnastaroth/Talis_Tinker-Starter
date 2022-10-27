@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "roboto_bold";
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+body {
+  font-family: "roboto";
+}
+
+header {
+  width: 100vw;
+  background-image: url(../img/banner_bg.jpg);
+}
+
+nav h1 {
+  font-family: "roboto_bold";
+  font-size: 2rem;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+}
+nav h1 span {
+  color: gold;
+  font-size: 2.5rem;
+}
+
+ul {
+  display: flex;
+  gap: 2rem;
+}
+ul a {
+  color: white;
+  text-transform: uppercase;
+}
+
+/*# sourceMappingURL=style.css.map */
