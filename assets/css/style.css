@@ -45,7 +45,7 @@ nav h1 {
 }
 nav h1 span {
   color: gold;
-  font-size: 3rem;
+  font-size: 3.5rem;
 }
 
 ul {
@@ -148,6 +148,66 @@ ul a {
   grid-template-rows: 33% 33% 33%;
   gap: 0;
   margin: 2rem 0 2rem;
+}
+
+footer {
+  background-color: rgb(49, 48, 48);
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  padding: 3rem 3rem;
+}
+footer div > h2 {
+  font-family: "roboto_bold";
+  font-weight: 900;
+  text-transform: uppercase;
+  color: white;
+}
+footer div > h2 span {
+  color: gold;
+  font-size: 2.5rem;
+}
+footer div > .copyright {
+  color: white;
+}
+footer div > .copyright span {
+  color: gold;
+}
+footer h3 {
+  color: white;
+  font-family: "roboto_bold";
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+footer p {
+  color: white;
+}
+footer i {
+  color: rgb(49, 48, 48);
+  background-color: white;
+  border-radius: 50%;
+  padding: 0.5rem;
+}
+footer .socials {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+footer .icon {
+  display: flex;
+  gap: 1rem;
+  font-size: 1rem;
+}
+footer .vert-bar {
+  border-right: 1px solid white;
+  height: 5%;
+  margin: 0 1rem;
+}
+
+.bot_part {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 /*# sourceMappingURL=style.css.map */
