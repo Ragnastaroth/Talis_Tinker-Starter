@@ -1,0 +1,95 @@
+@font-face {
+  font-family: "roboto";
+  src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: "roboto_bold";
+  src: url(../fonts/Roboto-Bold.ttf);
+}
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  list-style: none;
+}
+
+body {
+  font-family: "roboto";
+}
+
+header {
+  width: 100vw;
+  background-image: url(../img/banner_bg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2% 15%;
+}
+nav h1 {
+  font-family: "roboto_bold";
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+}
+nav h1 span {
+  color: gold;
+  font-size: 3rem;
+}
+
+ul {
+  display: flex;
+  gap: 3rem;
+}
+ul a {
+  color: white;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
+#banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#banner h2 {
+  color: white;
+  margin: 10% auto 1rem;
+}
+#banner h2 .html {
+  color: darkcyan;
+  text-transform: uppercase;
+  font-family: "roboto_bold";
+}
+#banner h2 .tinker {
+  color: gold;
+  text-transform: uppercase;
+  font-family: "roboto_bold";
+}
+#banner p {
+  width: 550px;
+  color: white;
+  text-align: center;
+}
+#banner a {
+  background-color: white;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: small;
+  margin: 2rem auto 10%;
+}
+
+/*# sourceMappingURL=style.css.map */
